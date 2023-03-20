@@ -40,6 +40,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default { player addBackpack "BWA3_Kitbag_Fleck"};
 	case "plt": {player addBackpack "tfw_ilbe_whip_wd2"};
+	case "logi": {player addBackpack "tfw_ilbe_whip_wd2"};
+	case "tacp": {player addBackpack "tfw_ilbe_whip_wd2"};
 	case "sqd_ld": {player addBackpack "tfw_ilbe_whip_wd2"};
 	case "rcn_ld": {player addBackpack "tfw_ilbe_whip_wd2"};
 	case "rcn_spe";

@@ -106,6 +106,11 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["LR Radios",
+		[
+			["tfw_ilbe_whip_wd2", 5]
+		]
+	],
 	["Squad Resupply",
 		[
 			["BWA3_30Rnd_556x45_G36", 24],
