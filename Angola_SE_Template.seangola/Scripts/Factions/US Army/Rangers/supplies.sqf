@@ -73,6 +73,13 @@ _resupplyAvailable = [
 			["UGL_FlareWhite_F",30],
 			["UGL_FlareCIR_F",20]
 		]
+	],
+	["40mm Heavy",
+		[
+			["rhsusf_mag_6Rnd_M441_HE",8],
+			["rhsusf_mag_6Rnd_M714_white",4],
+			["rhsusf_mag_6Rnd_M713_red",4]
+		]
 	],	
 	["Explosives",
 		[
