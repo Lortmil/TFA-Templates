@@ -31,8 +31,14 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhs_assault_umbts"};
-	case "logi": {player addBackpack "rhs_assault_umbts_engineer_empty"};
-	case "sup_mmg_l";
+	case "logi": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "tacp": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "plt": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "sqd_ld": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "rcn_ld": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "sup_mat_l": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "sup_mmg_l": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
+	case "sup_aa_l": {player addBackpack "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI"};
 	case "sup_mmg_g": {player addBackpack "rhs_tortila_olive"};
 	case "pil": {};
 };

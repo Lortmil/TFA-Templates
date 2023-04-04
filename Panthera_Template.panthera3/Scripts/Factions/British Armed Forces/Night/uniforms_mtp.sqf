@@ -48,21 +48,19 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B"};
-	case "plt": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
-	case "sqd_ld": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
-	case "logi": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
+	case "logi": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Engineer_H_A"};
 	case "rcn_spe";
 	case "sqd_med": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Medic_L_B"};
 	case "sqd_ar";
 	case "sqd_aar";
-	case "sup_mmg_l": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
+	case "sup_mmg_l";
 	case "sup_mmg_g": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D"};
 	case "sqd_gre": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C"};
 	case "tacp": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
 	case "sqd_lat";
-	case "sup_hat_l": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
+	case "sup_hat_l";
 	case "sup_hat_g": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C"};
-	case "rcn_ld": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
+	case "rcn_ld";
 	case "rcn_dmr": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_A"};
 	case "sqd_eng": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Sapper_L_A"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};

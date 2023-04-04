@@ -2,7 +2,8 @@ _resupplyAvailable = [
 	["Primary Resupply",
 		[
 			["BWA3_30Rnd_556x45_G36",40],
-			["BWA3_30Rnd_556x45_G36_Tracer",40]
+			["BWA3_30Rnd_556x45_G36_Tracer",40],
+			["BWA3_15Rnd_9x19_P8",40]
 		]
 	],
 	["AR Resupply",

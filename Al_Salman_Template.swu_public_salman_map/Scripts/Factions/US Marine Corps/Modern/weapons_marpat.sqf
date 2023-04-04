@@ -3,12 +3,12 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary weapon
 switch (_loadout) do {
 	default { player addWeapon "rhs_weap_m27iar";
-			  player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
+			  player addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
 			  player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 			  player addPrimaryWeaponItem "hlc_muzzle_556nato_m42000";
 	};
 	case "sqd_gre":{ player addWeapon "rhs_weap_m16a4_imod_M203";
-					player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
+					player addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
 					player addPrimaryWeaponItem "hlc_muzzle_556nato_m42000";
 					player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	};

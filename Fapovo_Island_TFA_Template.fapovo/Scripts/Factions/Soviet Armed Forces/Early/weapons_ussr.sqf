@@ -24,9 +24,16 @@ switch (_loadout) do {
 // add secondary weapon
 switch (_loadout) do {
 	default {};
-	case "plt";
-	case "logi";
-	case "ar_ld";
+	case "plt": { player addWeapon "rhs_weap_makarov_pm"};
+	case "logi": { player addWeapon "rhs_weap_makarov_pm"};
+	case "plt_ld": { player addWeapon "rhs_weap_makarov_pm"};
+	case "tacp": { player addWeapon "rhs_weap_makarov_pm"};
+	case "sqd_ld": { player addWeapon "rhs_weap_makarov_pm"};
+	case "rcn_ld": { player addWeapon "rhs_weap_makarov_pm"};
+	case "sup_mmg_l": { player addWeapon "rhs_weap_makarov_pm"};
+	case "sup_mat_l": { player addWeapon "rhs_weap_makarov_pm"};
+	case "sup_mor_l": { player addWeapon "rhs_weap_makarov_pm"};
+	case "ar_ld": { player addWeapon "rhs_weap_makarov_pm"};
 	case "ar_c";
 	case "pil": { player addWeapon "rhs_weap_makarov_pm"};
 };

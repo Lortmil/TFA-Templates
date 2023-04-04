@@ -2,7 +2,8 @@ _resupplyAvailable = [
 	["Primary Resupply",
 		[
 			["rhs_30Rnd_762x39mm",40],
-			["rhs_30Rnd_762x39mm_tracer",40]
+			["rhs_30Rnd_762x39mm_tracer",40],
+			["rhs_mag_9x18_8_57N181S", 40]
 		]
 	],
 	["AR Resupply",
@@ -70,11 +71,11 @@ _resupplyAvailable = [
 			["SatchelCharge_Remote_Mag",10]
 		]
 	],
-	["Blood IVs",
+	["Saline IVs",
 		[
-			["ACE_bloodIV", 20],
-			["ACE_bloodIV_500", 20],
-			["ACE_bloodIV_250", 20]
+			["ACE_salineIV", 20],
+			["ACE_salineIV_500", 20],
+			["ACE_salineIV_250", 20]
 		]
 	],
 	["Bandages",
@@ -97,6 +98,11 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["LR Radios",
+		[
+			["UK3CB_LSM_B_B_CARRYALL_RADIO_KHK", 5]
+		]
+	],
 	["Squad Resupply",
 		[
 			["rhs_30Rnd_762x39mm", 24],
@@ -108,7 +114,7 @@ _resupplyAvailable = [
 			["ACE_elasticBandage", 12],
 			["ACE_packingBandage", 12],
 			["ACE_quikclot", 12],
-			["ACE_bloodIV_500", 6]
+			["ACE_salineIV_500", 6]
 		]
 	],
 	["Parachutes",

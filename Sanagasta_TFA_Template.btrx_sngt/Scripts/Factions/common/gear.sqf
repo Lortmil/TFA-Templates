@@ -6,6 +6,7 @@ _variantEra = _variantArray #1;
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player addItemToBackpack "MineDetector";
 player addItemToUniform "ACE_Flashlight_XL50"; 
 player addItemToVest "ACE_MapTools";
 player addItemToVest "ACE_EarPlugs";
@@ -41,7 +42,6 @@ switch (_loadout) do {
 	case "sqd_eng": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "tsp_stickCharge_mag"};
 		for "_i" from 1 to 3 do { player addItemToBackpack "DemoCharge_Remote_Mag"};
-		player addItemToBackpack "MineDetector";
 		player addItemToBackpack "ACE_M26_Clacker";
 		player addItemToBackpack "ACE_wirecutter";
 		player addItemToBackpack "ACE_DefusalKit";
@@ -68,7 +68,6 @@ switch (_loadout) do {
 	};
 	case "rcn_spe": {
 		for "_i" from 1 to 3 do { player addItemToBackpack "DemoCharge_Remote_Mag"};
-		player addItemToBackpack "MineDetector";
 		player addItemToBackpack "ACE_M26_Clacker";
 		player addItemToBackpack "ACE_wirecutter";
 		player addItemToBackpack "ACE_DefusalKit";
@@ -92,10 +91,10 @@ switch (_loadout) do {
 	case "sup_mor_g": {player addItemToUniform "ACE_RangeTable_82mm"};
 };
 
-// add Parachutes to pilots
+// add Parachutes to pilots (changed to backpack as people complained)
 switch (_loadout) do {
 	default {};
-	case "pil": {player addBackpack "B_Parachute"};
+	case "pil": {player addBackpack "tfw_ilbe_DD_black"};
 };
 
 
@@ -180,7 +179,7 @@ if (_variantEra == "Modern") then {
 
 	// add binocular
 	switch (_loadout) do {
-		default { player addWeapon "binocular"};
+		default { player addWeapon "ACE_Vector"};
 		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";
@@ -244,7 +243,7 @@ if (_variantEra == "Rangers") then {
 	
 	// add binocular
 	switch (_loadout) do {
-		default { player addWeapon "binocular"};
+		default { player addWeapon "ACE_Vector"};
 		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";
@@ -285,7 +284,7 @@ if (_variantEra == "Day") then {
 	
 	// add binocular
 	switch (_loadout) do {
-		default { player addWeapon "binocular"};
+		default { player addWeapon "ACE_Vector"};
 		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";
@@ -326,7 +325,7 @@ if (_variantEra == "Night") then {
 	
 	// add binocular
 	switch (_loadout) do {
-		default { player addWeapon "binocular"};
+		default { player addWeapon "ACE_Vector"};
 		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";

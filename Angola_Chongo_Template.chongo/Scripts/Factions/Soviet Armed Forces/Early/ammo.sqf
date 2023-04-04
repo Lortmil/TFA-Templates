@@ -37,9 +37,30 @@ switch (_loadout) do {
 // add secondary ammo
 switch (_loadout) do {
 	default {};
-	case "plt";
-	case "logi";
-	case "ar_ld";
+	case "plt": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "logi": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "tacp": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "sqd_ld": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "rcn_ld": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "sup_mmg_l": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "sup_mat_l": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
+	case "ar_ld": {
+		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
+	};
 	case "ar_c";
 	case "pil": {
 		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};

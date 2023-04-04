@@ -31,9 +31,14 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "UK3CB_B_Alice_K"};
+	case "plt": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};
+	case "logi": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};
+	case "rcn_ld": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};
+	case "sqd_ld": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};
 	case "sqd_med": {player addBackpack "UK3CB_B_Alice_Medic_Bedroll_K"};
 	case "sqd_lat";
-	case "sup_mat_l";
+	case "sup_mmg_l": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};
+	case "sup_mat_l": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_KHK"};;
 	case "sup_mat_g": {player addBackpack "rhs_rpg_2"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};

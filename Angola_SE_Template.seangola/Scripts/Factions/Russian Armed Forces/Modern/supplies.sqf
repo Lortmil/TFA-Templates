@@ -106,6 +106,11 @@ _resupplyAvailable = [
 			["ACE_morphine", 20]
 		]
 	],
+	["LR Radios",
+		[
+			["UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio", 5]
+		]
+	],
 	["Misc. Medical Supplies",
 		[
 			["ACE_tourniquet", 20],

@@ -27,13 +27,19 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhs_rk_sht_30_olive"};
-	case "logi";
+	case "logi": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
+	case "plt": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
+	case "tacp": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
+	case "sqd_ld": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
+	case "rcn_ld": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
 	case "rcn_spe";
 	case "sqd_eng": {player addBackpack "rhs_rk_sht_30_olive_engineer_empty"};
-	case "sup_mmg_l";
+	case "sup_mmg_l": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
 	case "sup_mmg_g": {player addBackpack "rhs_tortila_olive"};
+	case "sup_mat_l": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
+	case "sup_aa_l": { player addBackpack "UK3CB_CW_SOV_O_LATE_B_ASS_BERGEN_Radio"};
 	case "ar_ld";
 	case "ar_c": {};
 };

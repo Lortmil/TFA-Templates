@@ -27,9 +27,11 @@ switch (_loadout) do {
 };
 
 // add secondary ammo
-//switch (_loadout) do {
-//	default {};
-//};
+switch (_loadout) do {
+  	default { 
+	    for "_i" from 1 to 2 do { player addItemToVest "BWA3_15Rnd_9x19_P8"};
+	};
+};
 
 // add assistant ammo 
 switch (_loadout) do {

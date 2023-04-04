@@ -111,6 +111,11 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["LR Radios",
+		[
+			["UK3CB_LSM_B_B_CARRYALL_RADIO_KHK", 5]
+		]
+	],
 	["Parachutes",
 		[
 			["B_Parachute", 20]
