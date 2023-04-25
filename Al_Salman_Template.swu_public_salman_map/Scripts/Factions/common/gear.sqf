@@ -21,7 +21,7 @@ switch (_loadout) do {
 	case "ar_ld";
 	case "ar_c";
 	case "pil";
-	case "sqd_med": {};
+	case "sqd_med";
 	case "sup_hmg_l";
 	case "sup_hmg_g";
 	case "sup_tow_l";
