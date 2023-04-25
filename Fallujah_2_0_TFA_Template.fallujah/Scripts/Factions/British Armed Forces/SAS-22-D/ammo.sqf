@@ -10,6 +10,10 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_200rnd_556x45_M855_mixed_box"};
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200rnd_556x45_M855_mixed_box"};
 	};
+	case "sqd_dmr": {
+		for "_i" from 1 to 4 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd"};
+		for "_i" from 1 to 4 do {player addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T"};
+	};
 	case "rcn_dmr": {
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_BAF_SIERRA_338_5Rnd"};
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_BAF_SIERRA_338_5Rnd_T"};
