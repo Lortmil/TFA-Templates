@@ -392,3 +392,45 @@ if (_variantEra == "SAS-CT") then {
 		};
 	};
 };
+
+if (_variantEra == "SAS-22-D") then {
+	
+	// add GPS
+	player linkItem "ItemGPS";
+	player addItemToUniform "ACE_microDAGR";
+	
+	// add Radio
+	player linkItem "TFAR_anprc152";
+
+	// add NVG
+	for "_i" from 1 to 2 do { player addItemToUniform "ACE_IR_Strobe_Item"};
+	player linkItem "ACE_NVG_Gen4_Black";
+
+	// add binocular
+	switch (_loadout) do {
+		default { player addWeapon "ACE_Vector"};
+		case "sqd_ld";
+		case "sqd_aar";
+		case "sqd_dmr";
+		case "rcn_ld";
+		case "rcn_dmr";
+		case "rcn_sni";
+		case "rcn_amr";
+		case "sup_mmg_l";
+		case "sup_mmg_g";	
+		case "sup_mat_l";
+		case "sup_mat_g";
+		case "sup_hat_l";
+		case "sup_hat_g";
+		case "sup_aa_l";
+		case "sup_aa_g";
+		case "sup_mor_l";
+		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
+		case "plt";
+		case "tacp": {
+			player addWeapon "Laserdesignator";
+			player addItemToBackpack "Laserbatteries";
+			player addItemToBackpack "Laserbatteries";
+		};
+	};
+};
