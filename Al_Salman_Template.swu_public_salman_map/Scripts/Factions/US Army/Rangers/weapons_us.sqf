@@ -48,11 +48,11 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon {"hlc_pistol_P229R_Combat"};
-	case "sqd_ld": { player addWeapon "rhs_weap_320"};
-	case "tacp": { player addWeapon "rhs_weap_320"};
-	case "rcn_ld": { player addWeapon "rhs_weap_320"};
-	case "plt": { player addWeapon "rhs_weap_320"};
+	default { player addWeapon "hlc_pistol_P229R_Combat"};
+	case "sqd_ld": { player addWeapon "rhs_weap_M320"};
+	case "tacp": { player addWeapon "rhs_weap_M320"};
+	case "rcn_ld": { player addWeapon "rhs_weap_M320"};
+	case "plt": { player addWeapon "rhs_weap_M320"};
 };
 
 // add launcher
