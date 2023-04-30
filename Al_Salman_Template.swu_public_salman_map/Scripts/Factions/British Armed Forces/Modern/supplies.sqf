@@ -20,9 +20,7 @@ _resupplyAvailable = [
 	["DMR Resupply",
 		[
 			["UK3CB_BAF_SIERRA_338_5Rnd",15],
-			["UK3CB_BAF_SIERRA_338_5Rnd_T",15],
-			["UK3CB_BAF_762_L42A1_20Rnd",15],
-			["UK3CB_BAF_762_L42A1_20Rnd_T",15]
+			["UK3CB_BAF_SIERRA_338_5Rnd_T",15]
 		]
 	],
 	["LAT Resupply",
@@ -50,6 +48,7 @@ _resupplyAvailable = [
 			["rhs_mag_an_m8hc",10],
 			["SmokeShellRed",10],
 			["SmokeShellGreen",10],
+			["SmokeShellPurple",10],
 			["SmokeShellBlue",10]
 		]
 	],
@@ -63,6 +62,7 @@ _resupplyAvailable = [
 			["1Rnd_Smoke_Grenade_Shell",20],
 			["1Rnd_SmokeRed_Grenade_Shell",10],
 			["1Rnd_SmokeGreen_Grenade_Shell",10],
+			["1Rnd_SmokePurple_Grenade_Shell",10],
 			["1Rnd_SmokeBlue_Grenade_Shell",10]
 		]
 	],
@@ -112,7 +112,6 @@ _resupplyAvailable = [
 			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],
 			["rhsusf_200rnd_556x45_M855_mixed_box", 4],
 			["launch_NLAW_F", 1],
-			["UK3CB_BAF_762_L42A1_20Rnd",6],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["HandGrenade", 6],
 			["rhs_mag_an_m8hc", 6],
