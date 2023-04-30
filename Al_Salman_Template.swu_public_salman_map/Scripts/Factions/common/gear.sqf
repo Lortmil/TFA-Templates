@@ -176,7 +176,11 @@ if (_variantEra == "Modern") then {
 	// add NVG
 	for "_i" from 1 to 2 do { player addItemToUniform "ACE_IR_Strobe_Item"};
 	player linkItem "ACE_NVG_Gen4_Black";
-
+	// add Night Site for DMR
+	switch (_loadout) do {
+		case "sqd_dmr": {player addItemToBackpack "rhsusf_acc_premier_anpvs27"};
+		case "rcn_dmr": {player addItemToBackpack "rhsusf_acc_premier_anpvs27"};
+		};
 	// add binocular
 	switch (_loadout) do {
 		default { player addWeapon "ACE_Vector"};
@@ -269,48 +273,7 @@ if (_variantEra == "Rangers") then {
 		};
 	};
 };
-if (_variantEra == "Day") then {
-	
-	// add GPS
-	player linkItem "ItemGPS";
-	player addItemToUniform "ACE_microDAGR";
-
-	// add NVG
-	//player linkItem "ACE_NVG_Gen4_Black";
-	//player addItemToUniform "ACE_IR_Strobe_Item"; 
-
-	// add Radio
-	player linkItem "TFAR_anprc152";
-	
-	// add binocular
-	switch (_loadout) do {
-		default { player addWeapon "ACE_Vector"};
-		case "sqd_ld";
-		case "sqd_aar";
-		case "sqd_dmr";
-		case "rcn_ld";
-		case "rcn_dmr";
-		case "rcn_sni";
-		case "rcn_amr";
-		case "sup_mmg_l";
-		case "sup_mmg_g";	
-		case "sup_mat_l";
-		case "sup_mat_g";
-		case "sup_hat_l";
-		case "sup_hat_g";
-		case "sup_aa_l";
-		case "sup_aa_g";
-		case "sup_mor_l";
-		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
-		case "plt";
-		case "tacp": {
-			player addWeapon "Laserdesignator";
-			player addItemToBackpack "Laserbatteries";
-			player addItemToBackpack "Laserbatteries";
-		};
-	};
-};
-if (_variantEra == "Night") then {
+if (_variantEra == "SAS-CT") then {
 	
 	// add GPS
 	player linkItem "ItemGPS";
@@ -342,7 +305,7 @@ if (_variantEra == "Night") then {
 		case "sup_aa_l";
 		case "sup_aa_g";
 		case "sup_mor_l";
-		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
+		case "sup_mor_g";
 		case "plt";
 		case "tacp": {
 			player addWeapon "Laserdesignator";
@@ -351,7 +314,7 @@ if (_variantEra == "Night") then {
 		};
 	};
 };
-if (_variantEra == "SAS-CT") then {
+if (_variantEra == "SAS-22-D") then {
 	
 	// add GPS
 	player linkItem "ItemGPS";

@@ -38,9 +38,7 @@ _availableVehicles =
   ["rhsusf_stryker_m1126_m2_d",
   "rhsusf_stryker_m1126_m2_wd",
   "rhsusf_stryker_m1132_m2_d",
-  "rhsusf_stryker_m1132_m2_wd",
-  "rhsusf_stryker_m1134_d",
-  "rhsusf_stryker_m1134_wd"]],
+  "rhsusf_stryker_m1134_d"]],
  
   ["IFV",
   ["RHS_M2A3_BUSKIII",
