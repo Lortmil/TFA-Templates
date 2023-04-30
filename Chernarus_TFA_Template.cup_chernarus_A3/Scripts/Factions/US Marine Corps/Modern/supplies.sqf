@@ -2,7 +2,9 @@ _resupplyAvailable = [
 	["Primary Resupply",
 		[
 			["rhs_mag_30Rnd_556x45_M855A1_PMAG",40],
-			["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",40]
+			["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",40],
+			["hlc_20Rnd_762x51_B_M14",40],
+			["ACE_20Rnd_762x51_Mag_Tracer",40]
 		]
 	],
 	["Shotgun Resupply",
@@ -106,6 +108,11 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["LR Radios",
+		[
+			["tfw_ilbe_whip_mc", 5]
 		]
 	],
 	["Squad Resupply",

@@ -49,10 +49,14 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_ucp"};
-	case "sqd_med";
-	case "sup_mmg_l";
-	case "sup_mat_l";
-	case "sup_aa_l": {player addBackpack "rhs_tortila_grey"};
+	case "sqd_med": { player addBackpack "rhsusf_assault_eagleaiii_ucp"};
+	case "sup_mmg_l": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "tacp": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "logi": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "sup_mat_l": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "rcn_ld": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "plt": { player addBackpack "tfw_ilbe_whip_alpine"};
+	case "sup_aa_l": { player addBackpack "tfw_ilbe_whip_alpine"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
 	case "ar_ld";

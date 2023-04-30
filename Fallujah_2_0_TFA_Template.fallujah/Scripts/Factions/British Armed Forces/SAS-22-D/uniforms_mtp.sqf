@@ -39,16 +39,22 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "VSM_OGA_Backpack_Kitbag"};
-	case "logi": { player addBackpack "VSM_OGA_carryall"};
-	case "rcn_spe";
+	case "plt": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_mmg_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_hat_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_aa_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "logi": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "tacp": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "rcn_ld": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "sqd_ld": { player addBackpack "tfw_ilbe_whip_mc"};
 	case "sqd_med": { player addBackpack "VSM_OGA_carryall"};
 	case "sqd_ar";
 	case "sqd_aar";
-	case "sup_mmg_l";
 	case "sup_mmg_g": { player addBackpack "VSM_OGA_carryall"};
 	case "sqd_lat";
-	case "sup_hat_l";
 	case "sup_hat_g": { player addBackpack "VSM_OGA_carryall"};
+	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
+	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
 	case "ar_ld";
 	case "ar_c": {};
 	case "pil": {};

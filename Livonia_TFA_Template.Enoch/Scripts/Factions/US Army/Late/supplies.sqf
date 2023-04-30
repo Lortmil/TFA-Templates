@@ -119,6 +119,11 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["LR Radios",
+		[
+			["tfw_ilbe_whip_alpine", 5]
+		]
+	],
 	["Squad Resupply",
 		[
 			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],

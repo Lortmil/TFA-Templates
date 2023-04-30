@@ -50,6 +50,7 @@ if (count _nearVehicles > 0) then {
 		[[_crate],"Scripts\Resupply\Functions\Add_FOB_Option.sqf"] remoteExec ["execVM", 0, _crate];
 		_crate setVariable ["ace_cargo_customName", "FOB", true];
 		[_crate, 8] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;	
 	}; 
 		
@@ -81,6 +82,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 2] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -99,6 +101,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -118,6 +121,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -137,6 +141,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -154,6 +159,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -170,6 +176,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 2] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -186,6 +193,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -202,6 +210,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 	};
 
@@ -217,6 +226,7 @@ if (count _nearVehicles > 0) then {
 
 		[_crate] call compile preprocessFile "Scripts\Resupply\Functions\Crate_Fill.sqf";
 		[_crate, 1] call ace_cargo_fnc_setSize;
+		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];
 		[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 		};
 	};
