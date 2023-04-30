@@ -3,7 +3,8 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary ammo 
 switch (_loadout) do {
 	default {
-		for "_i" from 1 to 8 do { player addItemToVest "hlc_20Rnd_762x51_M_SCARH_tan"};
+		for "_i" from 1 to 4 do { player addItemToVest "hlc_20Rnd_762x51_M_SCARH_tan"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "hlc_20Rnd_762x51_M_SCARH_tan"};
 	};
 	case "sqd_ld": {
 		for "_i" from 1 to 4 do { player addItemToVest "hlc_30rnd_556x45_EPR_PMAG"};
@@ -37,8 +38,7 @@ switch (_loadout) do {
 	};
 	case "ar_ld";
 	case "ar_c";
-	case "pil": {
-	};
+	case "pil": {};
 };
 // add secondary ammo
 switch (_loadout) do {
@@ -48,7 +48,7 @@ switch (_loadout) do {
 	case "sqd_ld":{};
 	case "tacp":{};
 	case "rcn_ld":{};
-	case "plt":{}:
+	case "plt":{};
 };
 
 // add assistant ammo 
@@ -62,16 +62,18 @@ switch (_loadout) do {
 		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
 	};
 	case "sup_aa_l": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};
 	};
 };
 
 // add other ammo 
 switch (_loadout) do {
 	default {};
-	case "sup_hat_l": {	player addWeapon "UK3CB_BAF_Javelin_Slung_Tube"};
+	case "sup_hat_l": {	
+		for "_i" from 1 to 1 do { player addWeapon "UK3CB_BAF_Javelin_Slung_Tube"};
+	};
 	case "sup_aa_g": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};
 	};
 };
 
@@ -106,9 +108,10 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
 	};
 	case "sqd_gre": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M441_HE"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M713_red"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M714_white"}
+		for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
 	};
 	case "tacp": {
 		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
