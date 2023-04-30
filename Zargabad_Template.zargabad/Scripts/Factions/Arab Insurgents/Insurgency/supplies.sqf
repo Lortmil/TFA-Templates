@@ -84,11 +84,11 @@ _resupplyAvailable = [
 			["IEDLandSmall_Remote_Mag",10]
 		]
 	],
-	["Blood IVs",
+	["Saline IVs",
 		[
-			["ACE_bloodIV", 20],
-			["ACE_bloodIV_500", 20],
-			["ACE_bloodIV_250", 20]
+			["ACE_salineIV", 20],
+			["ACE_salineIV_500", 20],
+			["ACE_salineIV_250", 20]
 		]
 	],
 	["Bandages",
@@ -109,6 +109,14 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Medical Supplies",
+		[
+			["ACE_packingBandage", 40],
+			["ACE_salineIV_500", 20],
+			["ACE_epinephrine", 20],
+			["ACE_morphine", 20]	
 		]
 	],
 	["LR Radios",

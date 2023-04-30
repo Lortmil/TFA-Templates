@@ -100,6 +100,11 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["LR Radios",
+		[
+			["UK3CB_LSM_B_B_CARRYALL_RADIO_OLI", 5]
+		]
+	],
 	["Squad Resupply",
 		[
 			["UK3CB_M16_20rnd_556x45", 24],

@@ -22,20 +22,10 @@ _availableVehicles =
 	"UK3CB_BAF_Jackal2_L2A1_W_DPMW",
 	"UK3CB_BAF_Coyote_Passenger_L111A1_W_DPMW"]],
 
-	["APC",
-	["UK3CB_BAF_FV432_Mk3_RWS_Sand_MTP",
-	"UK3CB_BAF_FV432_Mk3_RWS_Green_DPMW"]],
-
-	["IFV",
-	["UK3CB_BAF_Warrior_A3_D_Cage_MTP",
-	"UK3CB_BAF_Warrior_A3_W_Cage_MTP"]],
-	
 	["Rotary Transport",
 	["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",
-	"UK3CB_BAF_Merlin_HC3_Cargo_MTP",
-	"UK3CB_BAF_Merlin_HC3_18_MTP",
-	"UK3CB_BAF_Chinook_HC2_cargo_MTP",
-	"UK3CB_BAF_Chinook_HC2_MTP"]],
+	"UK3CB_BAF_Merlin_HC4_Cargo_MTP",
+	"UK3CB_BAF_Merlin_HC3_18_MTP"]],
 	
 	["Rotary Attack",
 	["UK3CB_BAF_Wildcat_AH1_8_Armed_MTP",

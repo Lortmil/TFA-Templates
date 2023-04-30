@@ -1,15 +1,14 @@
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhs_mag_20Rnd_SCAR_762x51_m80_ball_bk",40],
-			["rhs_mag_20Rnd_SCAR_762x51_m62_tracer_bk",40],
-			["rhsusf_mag_15Rnd_9x19_JHP",40],
-			["rhsusf_mag_15Rnd_9x19_JHP",40]
+			["hlc_20Rnd_762x51_M_SCARH_tan",40],
+			["hlc_30rnd_556x45_M_PMAG",40],
+			["hlc_15Rnd_9x19_B_P226",40]
 		]
 	],
 	["AR Resupply",
 		[
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",30]
+			["rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote",30]
 		]
 	],
 	["MMG Resupply",
@@ -32,7 +31,7 @@ _resupplyAvailable = [
 	],
 	["HAT Resupply",
 		[
-			["rhs_fgm148_magazine_AT",2]
+			["UK3CB_BAF_Javelin_Slung_Tube",4]
 		]
 	],
 	["AA Resupply",
@@ -126,8 +125,8 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",20],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",20],
+			["hlc_20Rnd_762x51_M_SCARH_tan",20],
+			["hlc_30rnd_556x45_M_PMAG",20],
 			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",10],
 			["rhs_mag_20Rnd_SCAR_762x51_m80_ball_bk",40],
 			["rhs_weap_M136",2],

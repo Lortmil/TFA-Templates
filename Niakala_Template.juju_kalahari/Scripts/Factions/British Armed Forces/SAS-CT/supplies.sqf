@@ -33,7 +33,7 @@ _resupplyAvailable = [
 	],
 	["HAT Resupply",
 		[
-			["UK3CB_BAF_Javelin_Slung_Tube",2]
+			["UK3CB_BAF_Javelin_Slung_Tube",4]
 		]
 	],
 	["AA Resupply",

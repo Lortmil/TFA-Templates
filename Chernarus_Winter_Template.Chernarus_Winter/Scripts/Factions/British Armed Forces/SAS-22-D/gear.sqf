@@ -21,3 +21,7 @@ switch (_loadout) do {
 	                player addItemToBackpack "ACE_Tripod"};
 };
 
+// night scope 
+switch (_loadout) do {
+	case "rcn_dmr" : {player addItemToBackpack "rhsusf_acc_premier_anpvs27"};
+};

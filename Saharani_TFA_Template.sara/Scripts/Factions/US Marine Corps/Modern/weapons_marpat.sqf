@@ -19,6 +19,11 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 	};
 	case "sqd_brc": {player addWeapon "rhs_weap_M590_8RD"};
+	case "sqd_dmr": {player addWeapon "hlc_rifle_M14dmr_Rail";
+					 player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+					 player addPrimaryWeaponItem "rhsusf_acc_harris_swivel";
+					 player addPrimaryWeaponItem "rhsusf_acc_leupoldmk4";
+	};
 	case "rcn_dmr": {player addWeapon "rhs_weap_m40a5";
 					 player addPrimaryWeaponItem "rhsusf_acc_leupoldmk4";
 					 player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
@@ -34,10 +39,11 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default {player addWeapon "hlc_pistol_Mk25D"};
-	case "sup_aa_g";
-	case "sup_mat_g";
-	case "sup_mmg_g": {};
+	default { player addWeapon "hlc_pistol_Mk25D"};
+	case "sqd_ld": { player addWeapon "rhs_weap_M320"};
+	case "tacp": { player addWeapon "rhs_weap_M320"};
+	case "rcn_ld": { player addWeapon "rhs_weap_M320"};
+	case "plt": { player addWeapon "rhs_weap_M320"};
 };
 
 // add launcher
