@@ -1,66 +1,60 @@
 params["_side","_faction","_variant", "_loadout"]; 
 
+randomUniformArray = ["Black_Black_Camo", "black_Crye_Camo", "Multicam_black_casual_Camo", "Black_Black_SS_Camo", "Black_Crye_SS_Camo"];
+randomHatArray = ["BLK2_opscore", "BLK_opscore_2", "rhsusf_opscore_bk", "rhsusf_opscore_bk_pelt"];
+
 // add uniform
 switch (_loadout) do {
-	default { player forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP"};
+	default { player forceAddUniform selectrandom randomUniformArray};
 	case "pil": { player forceAddUniform "UK3CB_BAF_U_HeliPilotCoveralls_Army"};
 };
 	
 // add helmet
 switch (_loadout) do {
-	default { player addHeadgear "UK3CB_BAF_H_Mk7_Camo_B"};
-	case "rcn_ld";
-	case "rcn_spe";
-	case "rcn_drone";
-	case "rcn_dmr": {player addHeadgear "UK3CB_BAF_H_Mk7_Scrim_F"};
-    case "ar_ld";
-	case "ar_c": {player addHeadgear "UK3CB_BAF_H_CrewHelmet_B"};
+	default { player addHeadgear selectRandom randomHatArray};
 	case "pil": {player addHeadgear "UK3CB_BAF_H_PilotHelmetHeli_A"};
 };
 
 // add vest
 switch (_loadout) do {
-	default { player addVest "UK3CB_BAF_V_Osprey_SL_D"};
-	case "logi": { player addVest "UK3CB_BAF_V_Osprey_Rifleman_A"};
+	default { player addVest "rhsusf_plateframe_rifleman"};
+	case "logi": { player addVest "rhsusf_plateframe_light"};
 	case "rcn_spe";
-	case "sqd_med": { player addVest "UK3CB_BAF_V_Osprey_Medic_C"};
+	case "sqd_med": { player addVest "rhsusf_plateframe_medic"};
 	case "sqd_ar";
 	case "sqd_aar";
-	case "sup_mmg_g": { player addVest "UK3CB_BAF_V_Osprey_MG_B"};
-	case "sqd_gre": { player addVest "UK3CB_BAF_V_Osprey_Grenadier_B"};
-	case "tacp": { player addVest "UK3CB_BAF_V_Osprey_SL_A"};
+	case "sup_mmg_g": { player addVest "rhsusf_plateframe_machinegunner"};
+	case "sqd_hgre";
+	case "sqd_gre": { player addVest "rhsusf_plateframe_grenadier"};
+	case "tacp": { player addVest "rhsusf_plateframe_teamleader"};
 	case "sqd_lat";
-	case "sup_hat_g": { player addVest "UK3CB_BAF_V_Osprey_Rifleman_B"};
+	case "sup_hat_g": { player addVest "rhsusf_plateframe_light"};
 	case "rcn_dmr";
-	case "rcn_drone": { player addVest "UK3CB_BAF_V_Osprey_Marksman_A"};
-	case "sup_mor_g": { player addVest "UK3CB_BAF_V_Osprey_Rifleman_C"};
-	case "sqd_eng": { player addVest "UK3CB_BAF_V_Osprey_Rifleman_B"};
+	case "sqd_dmr": { player addVest "rhsusf_plateframe_marksman"};
 	case "ar_ld";
-	case "ar_c": { player addVest "UK3CB_BAF_V_Osprey_Lite"};
+	case "ar_c": { player addVest "rhsusf_plateframe_light"};
 	case "pil": { player addVest "UK3CB_V_Pilot_Vest"};
 };
 
 // add backpack 
 switch (_loadout) do {
-	default { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B"};
-	case "logi": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Engineer_H_A"};
-	case "rcn_spe";
-	case "sqd_med": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Medic_L_B"};
+	default { player addBackpack "VSM_OGA_Backpack_Kitbag"};
+	case "plt": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_mmg_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_hat_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "sup_aa_l": {player addBackpack "tfw_ilbe_whip_mc"};
+	case "logi": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "tacp": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "rcn_ld": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "sqd_ld": { player addBackpack "tfw_ilbe_whip_mc"};
+	case "sqd_med": { player addBackpack "VSM_OGA_carryall"};
 	case "sqd_ar";
 	case "sqd_aar";
-	case "sup_mmg_l";
-	case "sup_mmg_g": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D"};
-	case "sqd_gre": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C"};
-	case "tacp": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Radio_L_B"};
+	case "sup_mmg_g": { player addBackpack "VSM_OGA_carryall"};
 	case "sqd_lat";
-	case "sup_hat_l";
-	case "sup_hat_g": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C"};
-	case "rcn_ld";
-	case "rcn_dmr": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_A"};
-	case "sqd_eng": { player addBackpack "UK3CB_BAF_B_Bergen_MTP_Sapper_L_A"};
-	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
-	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
-	case "rcn_drone": {player addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C"};
+	case "sup_hat_g": { player addBackpack "VSM_OGA_carryall"};
+	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
+	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
 	case "ar_ld";
 	case "ar_c": {};
 	case "pil": {};

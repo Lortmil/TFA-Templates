@@ -53,7 +53,8 @@ _availableVehicles =
   ["Boat",
 	["B_Boat_Transport_01_F",
   "rhsgref_hidf_rhib",
-	"rhsusf_mkvsoc"]],
+	"rhsusf_mkvsoc",
+	"UK3CB_BAF_RHIB_GPMG_DPMW_RM"]],
   
   ["Turrets",
   ["RHS_M2StaticMG_MiniTripod_D",

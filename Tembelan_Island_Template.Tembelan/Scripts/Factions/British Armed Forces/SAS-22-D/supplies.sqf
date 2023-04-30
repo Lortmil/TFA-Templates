@@ -20,7 +20,9 @@ _resupplyAvailable = [
 	["DMR Resupply",
 		[
 			["UK3CB_BAF_SIERRA_338_5Rnd",15],
-			["UK3CB_BAF_SIERRA_338_5Rnd_T",15]
+			["UK3CB_BAF_SIERRA_338_5Rnd_T",15],
+			["UK3CB_BAF_762_L42A1_20Rnd",15],
+			["UK3CB_BAF_762_L42A1_20Rnd_T",15]
 		]
 	],
 	["LAT Resupply",
@@ -30,7 +32,7 @@ _resupplyAvailable = [
 	],
 	["HAT Resupply",
 		[
-			["UK3CB_BAF_Javelin_Slung_Tube",2]
+			["UK3CB_BAF_Javelin_Slung_Tube",4]
 		]
 	],
 	["AA Resupply",
@@ -110,6 +112,7 @@ _resupplyAvailable = [
 			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],
 			["rhsusf_200rnd_556x45_M855_mixed_box", 4],
 			["launch_NLAW_F", 1],
+			["UK3CB_BAF_762_L42A1_20Rnd",6],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["HandGrenade", 6],
 			["rhs_mag_an_m8hc", 6],

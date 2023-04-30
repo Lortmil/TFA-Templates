@@ -1,4 +1,4 @@
-_avialableLoadouts = 
+_availableLoadouts = 
 	[
 		["Air"],
 		[["Pilot"]],
@@ -6,4 +6,4 @@ _avialableLoadouts =
 		[["pil"]]
 	];
 
-_avialableLoadouts
+_availableLoadouts

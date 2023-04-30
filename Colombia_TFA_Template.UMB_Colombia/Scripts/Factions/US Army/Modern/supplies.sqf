@@ -34,7 +34,7 @@ _resupplyAvailable = [
 	],
 	["HAT Resupply",
 		[
-			["rhs_fgm148_magazine_AT",2]
+			["UK3CB_BAF_Javelin_Slung_Tube",4]
 		]
 	],
 	["AA Resupply",
@@ -119,6 +119,11 @@ _resupplyAvailable = [
 			["ACE_splint", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["LR Radios",
+		[
+			["tfw_ilbe_whip_mc", 5]
 		]
 	],
 	["Squad Resupply",

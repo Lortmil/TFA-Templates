@@ -13,6 +13,9 @@ switch (_loadout) do {
 					 player addPrimaryWeaponItem "rhsusf_acc_compm4";
 	};
 	case "sqd_brc": {player addWeapon "rhs_weap_M590_8RD"};
+	case "sqd_dmr": {player addWeapon "HLC_RIFLE_FAL5061Rail";
+					 player addPrimaryWeaponItem "optic_dms";
+	};
 	case "rcn_dmr": {player addWeapon "UK3CB_PSG1A1_RIS";
 					 player addPrimaryWeaponItem "rhsusf_acc_leupoldmk4";
 					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";

@@ -23,6 +23,10 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "UK3CB_CHC_C_B_HIKER"};
+	case "plt": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_OLI"};
+	case "logi": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_OLI"};
+	case "tacp": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_OLI"};
+	case "rcn_ld": { player addBackpack "UK3CB_LSM_B_B_CARRYALL_RADIO_OLI"};
 	case "sqd_med": {player addBackpack "B_Carryall_oli"};
 	case "sup_hmg_l": {player addBackpack "RHS_M2_miniTripod_Bag"};
 	case "sup_hmg_g": {player addBackpack "RHS_M2_Gun_Bag"};
