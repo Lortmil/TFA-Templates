@@ -20,6 +20,10 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "rhs_acc_perst3";
 					player addPrimaryWeaponItem "rhs_acc_dtk3";
 	};
+	case "sqd_dmr": {player addWeapon "rhs_weap_svdp";
+					 player addPrimaryWeaponItem "rhs_acc_pso1m21_svd";
+					 player addPrimaryWeaponItem "rhs_acc_tgpv2";
+	};
 	case "rcn_dmr": {player addWeapon "rhs_weap_svdp";
 					 player addPrimaryWeaponItem "rhs_acc_pso1m21_svd";
 					 player addPrimaryWeaponItem "rhs_acc_tgpv2";

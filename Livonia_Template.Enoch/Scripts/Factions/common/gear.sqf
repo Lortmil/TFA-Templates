@@ -176,11 +176,6 @@ if (_variantEra == "Modern") then {
 	// add NVG
 	for "_i" from 1 to 2 do { player addItemToUniform "ACE_IR_Strobe_Item"};
 	player linkItem "ACE_NVG_Gen4_Black";
-	// add Night Site for DMR
-	switch (_loadout) do {
-		case "sqd_dmr": {player addItemToBackpack "rhsusf_acc_premier_anpvs27"};
-		case "rcn_dmr": {player addItemToBackpack "rhsusf_acc_premier_anpvs27"};
-		};
 	// add binocular
 	switch (_loadout) do {
 		default { player addWeapon "ACE_Vector"};

@@ -26,7 +26,9 @@ _resupplyAvailable = [
 	["DMR Resupply",
 		[
 			["rhsusf_20Rnd_762x51_SR25_m993_Mag",20],
-			["rhsusf_20Rnd_762x51_SR25_m62_Mag",20]
+			["rhsusf_20Rnd_762x51_SR25_m62_Mag",20],
+			["UK3CB_BAF_762_L42A1_20Rnd",20],
+			["UK3CB_BAF_762_L42A1_20Rnd_T",20]
 		]
 	],
 	["LAT Resupply",

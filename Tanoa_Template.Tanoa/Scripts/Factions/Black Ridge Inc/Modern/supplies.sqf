@@ -19,7 +19,9 @@ _resupplyAvailable = [
 	["DMR Resupply",
 		[
 			["UK3CB_G3_20rnd_762x51",10],
-			["UK3CB_G3_20rnd_762x51_GT",10]
+			["UK3CB_G3_20rnd_762x51_GT",10],
+			["UK3CB_FNFAL_30rnd_762x51",10],
+			["UK3CB_FNFAL_30rnd_762x51_R",10]
 		]
 	],
 	["LAT Resupply",
