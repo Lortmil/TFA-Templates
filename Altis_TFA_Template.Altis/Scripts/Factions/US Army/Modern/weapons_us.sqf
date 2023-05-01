@@ -6,11 +6,7 @@ switch (_loadout) do {
 			  player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
 			  player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	};
-	case "sqd_ld":{ player addWeapon "hlc_wp_SCARH_STD_EGLM_Blk";
-				    player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
-				    player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
-	};
-	case "sqd_gre":{ player addWeapon "hlc_wp_SCARH_STD_EGLM_Blk";
+	case "sqd_gre":{ player addWeapon "rhs_weap_m4a1_blockII_M203";
 					 player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
 					 player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	};
@@ -19,7 +15,7 @@ switch (_loadout) do {
 	case "sqd_ar": { player addWeapon "hlc_m249_pip2";
 					 player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
 	};
-	case "sqd_dmr": { player addWeapon "hlc_wp_SCARH_Blk";
+	case "sqd_dmr": { player addWeapon "hlc_wp_SCARH_DMR_Blk";
 					  player addPrimaryWeaponItem "rhsusf_acc_M8541_mrds";
 					  player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 					  player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
@@ -40,6 +36,10 @@ switch (_loadout) do {
 // add secondary weapon
 switch (_loadout) do {
 	default { player addWeapon "rhsusf_weap_m9"};
+	case "sqd_ld": { player addWeapon "rhs_weap_M320"};
+	case "tacp": { player addWeapon "rhs_weap_M320"};
+	case "rcn_ld": { player addWeapon "rhs_weap_M320"};
+	case "plt": { player addWeapon "rhs_weap_M320"};
 };
 
 // add launcher

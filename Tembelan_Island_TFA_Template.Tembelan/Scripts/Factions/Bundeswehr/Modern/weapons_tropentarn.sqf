@@ -23,9 +23,14 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 					player addPrimaryWeaponItem "BWA3_optic_ZO4x30_MicroT2_pip"
 	};
-	case "rcn_dmr": {player addWeapon "BWA3_G28";
+	case "sqd_dmr": {player addWeapon "BWA3_G28";
 					 player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 					 player addPrimaryWeaponItem "bwa3_optic_pmii_shortdotcc_pip";
+					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod"
+	};
+	case "rcn_dmr": {player addWeapon "hlc_rifle_awmagnum_BL";
+					 player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
+					 player addPrimaryWeaponItem "rhsusf_acc_premier_low";
 					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod"
 	};
 	case "sup_mmg_g": {	player addWeapon "BWA3_MG5_Tan";
