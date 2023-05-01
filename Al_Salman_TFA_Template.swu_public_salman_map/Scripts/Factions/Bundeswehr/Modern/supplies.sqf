@@ -21,7 +21,9 @@ _resupplyAvailable = [
 	["DMR Resupply",
 		[
 			["BWA3_20Rnd_762x51_G28_AP",30],
-			["BWA3_20Rnd_762x51_G28_Tracer",10]
+			["BWA3_20Rnd_762x51_G28_Tracer",30],
+			["hlc_5rnd_300WM_FMJ_AWM",30],
+			["hlc_5rnd_300WM_T_AWM",30]
 		]
 	],
 	["LAT Resupply",

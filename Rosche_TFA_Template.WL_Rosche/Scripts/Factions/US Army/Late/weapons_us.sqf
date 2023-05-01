@@ -7,8 +7,11 @@ switch (_loadout) do {
 	case "sqd_ld";
 	case "rcn_ld";
 	case "sqd_gre":{ player addWeapon "UK3CB_M16A2_UGL";};
-	case "sqd_hgre": { player addWeapon "rhs_weap_m32"};
-	case "sqd_ar": {player addWeapon "rhs_weap_m249_pip";};
+	case "sqd_hgre": { player addWeapon "rhs_weap_m32";};
+	case "sqd_ar": {player addWeapon "rhs_weap_m249_pip"};
+	case "sqd_dmr": {player addWeapon "hlc_rifle_M14dmr_Rail";
+					 player addPrimaryWeaponItem "rhsusf_acc_LEUPOLDMK4";
+	};
 	case "rcn_dmr": {player addWeapon "rhs_weap_m14ebrri";
 					 player addPrimaryWeaponItem "rhsusf_acc_leupoldmk4";
 					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";

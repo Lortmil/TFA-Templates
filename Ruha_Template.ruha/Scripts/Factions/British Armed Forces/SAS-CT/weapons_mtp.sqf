@@ -3,13 +3,13 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary weapon
 switch (_loadout) do {
 	default { player addWeapon "UK3CB_BAF_L119A1_RIS";
-			  player addPrimaryWeaponItem "rksl_optic_lds";
+			  player addPrimaryWeaponItem "rhsusf_acc_acog3";
 			  player addPrimaryWeaponItem "UK3CB_underbarrel_acc_afg";
 			  player addPrimaryWeaponItem "uk3cb_baf_llm_ir_black";
 			  player addPrimaryWeaponItem "uk3cb_baf_silencer_l85";
 	};
 	case "sqd_gre":{ player addWeapon "UK3CB_BAF_L119A1_RIS_UKUGL";
-			         player addPrimaryWeaponItem "rksl_optic_lds";
+			         player addPrimaryWeaponItem "rhsusf_acc_acog3";
 					 player addPrimaryWeaponItem "uk3cb_baf_llm_ir_black";
 			  		 player addPrimaryWeaponItem "uk3cb_baf_silencer_l85";
 	};

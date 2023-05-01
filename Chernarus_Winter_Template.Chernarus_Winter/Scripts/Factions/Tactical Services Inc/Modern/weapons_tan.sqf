@@ -25,6 +25,11 @@ switch (_loadout) do {
 					   player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	};
 	case "sqd_hgre": {player addWeapon "rhs_weap_m32"};
+	case "sqd_dmr":{ player addWeapon "arifle_SPAR_03_blk_F";
+			         player addPrimaryWeaponItem "uk3cb_baf_ta648_308";
+					 player addPrimaryWeaponItem "uk3cb_baf_llm_ir_black";
+			  		 player addPrimaryWeaponItem "uk3cb_baf_silencer_l115a3";
+	};
 	case "rcn_ld":{ player addWeapon "hlc_rifle_416D145";
 					player addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
 					player addPrimaryWeaponItem "rhsusf_acc_kac_grip";

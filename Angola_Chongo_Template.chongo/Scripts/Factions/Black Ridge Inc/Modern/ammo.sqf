@@ -10,7 +10,10 @@ switch (_loadout) do {
 		for "_i" from 1 to 6 do { player addItemToVest "rhsusf_8Rnd_00Buck"};
 		for "_i" from 1 to 6 do { player addItemToBackpack "rhsusf_8Rnd_Slug"};
 	};
-	case "sqd_dmr";
+	case "sqd_dmr": {
+		for "_i" from 1 to 6 do { player addItemToVest "UK3CB_FNFAL_30rnd_762x51"};
+		for "_i" from 1 to 6 do { player addItemToBackpack "UK3CB_FNFAL_30rnd_762x51_R"};
+	};
 	case "rcn_dmr": {
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_G3_20rnd_762x51"};
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_G3_20rnd_762x51_GT"};
